@@ -12,5 +12,6 @@ def pig_latin(text):
                     counter2 = 1
             return words[counter:] + words[:counter] + 'ay'
 
+
 text = input("Please enter text:")
 print(' '.join(pig_latin(words) for words in text.split()))
